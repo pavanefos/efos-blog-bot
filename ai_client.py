@@ -49,13 +49,15 @@ def chat_json(
     for current_model in models_to_try:
         payload = {
             "model": current_model,
-            "response_format": {"type": "json_object"},
             "max_tokens": max_tokens,
             "messages": [
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},
             ],
         }
+        if ":free" not in current_model:
+            payload["response_format"] = {"type": "json_object"}
+
         for attempt in range(1, max_retries + 1):
             try:
                 resp = requests.post(OPENROUTER_CHAT, headers=_headers(), json=payload, timeout=120)
@@ -65,7 +67,13 @@ def chat_json(
                     raise OpenRouterError(f"HTTP 404: Model {current_model} not found. Trying next model...")
                 if resp.status_code != 200:
                     raise OpenRouterError(f"HTTP {resp.status_code}: {resp.text[:300]}")
-                content = resp.json()["choices"][0]["message"]["content"]
+                data = resp.json()
+                choices = data.get("choices") or []
+                if not choices:
+                    raise OpenRouterError(f"No choices in response for {current_model}: {data}")
+                content = choices[0].get("message", {}).get("content")
+                if not content:
+                    raise OpenRouterError(f"Empty content in response for {current_model}")
                 return _extract_json(content)
             except (OpenRouterError, KeyError, ValueError, requests.RequestException) as e:
                 last_err = e
