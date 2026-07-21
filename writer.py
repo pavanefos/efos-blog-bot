@@ -41,12 +41,12 @@ def research(topic: str, category: str) -> dict[str, Any]:
         + GUARDRAILS
     )
     user = (
-        "Research this topic and return ONLY JSON with these keys: "
-        "executive_summary, important_facts (list), statistics (list), latest_updates (list), "
-        "useful_urls (list), faqs (list of {question, answer}), key_takeaways (list). "
-        f"Topic: {topic}\nCategory: {category}"
+        "Research this topic. Return ONLY JSON: "
+        '{"executive_summary":"","important_facts":[""],"statistics":[""],"latest_updates":[""],'
+        '"useful_urls":[""],"faqs":[{"question":"","answer":""}],"key_takeaways":[""]}. '
+        f"Topic: {topic}. Category: {category}."
     )
-    data = chat_json(system, user, max_tokens=4096)
+    data = chat_json(system, user, max_tokens=1024)
     log.info(f"Researched '{topic}' ({len(data.get('important_facts', []))} facts).")
     return data
 
@@ -58,19 +58,13 @@ def write_blog(topic: str, category: str, research_data: dict[str, Any]) -> dict
         "fees/deadlines; never say EFOS charges candidates.\n" + GUARDRAILS + FORMAT_RULES
     )
     user = (
-        "Write a 2500-4000 word SEO blog as clean, well-structured HTML. "
-        "Return ONLY JSON with these keys:\n"
-        "seo_title (<60 chars), slug (kebab-case), meta_title (<60), meta_description (<155), "
-        "meta_keywords (comma list), og_description (<155), twitter_description (<155), "
-        "featured_snippet (<40-55 words), table_of_contents (list), html_blog (full HTML string), "
-        "faq_schema (JSON-LD FAQPage string), breadcrumb_schema (JSON-LD string), "
-        "article_schema (JSON-LD string), internal_links (list), external_references (list), "
-        "author_bio (pick from the two EFOS founders), word_count (int).\n"
-        f"Topic: {topic}\nCategory: {category}\n"
-        f"Research: {json.dumps(research_data, ensure_ascii=False)[:6000]}"
+        "Write a short SEO blog as clean HTML. "
+        'Return ONLY JSON: '
+        '{"seo_title":"","slug":"","meta_title":"","meta_description":"","meta_keywords":"","html_blog":"","author_bio":"","word_count":0}. '
+        f"Topic: {topic}. Category: {category}. "
+        f"Research: {json.dumps(research_data, ensure_ascii=False)[:2000]}"
     )
-    data = chat_json(system, user, max_tokens=4096)
-    # Guarantee required SEO fields are present and non-empty.
+    data = chat_json(system, user, max_tokens=2048)
     data["seo_title"]    = data.get("seo_title") or topic[:60]
     data["slug"]         = data.get("slug") or _slugify(topic)
     data["meta_title"]   = data.get("meta_title") or data.get("seo_title", topic[:60])
