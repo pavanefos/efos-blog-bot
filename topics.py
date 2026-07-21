@@ -81,12 +81,8 @@ def select_topics(candidates: list[TopicCandidate], count: int) -> list[dict[str
         "education, careers, skills, internships, scholarships, jobs.\n" + GUARDRAILS
     )
     user = (
-        f"From the candidate topics below, select the {count} BEST, DISTINCT topics to publish "
-        "blogs about today. Prefer: trending, fresh, strong SEO opportunity, relevant to Indian "
-        "youth, low competition, and covering DIFFERENT categories where possible. "
-        "Return ONLY JSON: {\"topics\": [{\"topic\":\"\",\"category\":\"one of "
-        "Scholarships,Internships,Skill Development,Careers,University Updates,AI & Technology,"
-        "Government,Education\",\"score\":0,\"reason\":\"\",\"keywords\":[\"\",\"\"]}]}. "
+        f"Select the {count} best topics from the list below. "
+        "Return ONLY JSON: {\"topics\": [{\"topic\":\"\",\"category\":\"Scholarships|Internships|Skill Development|Careers|University Updates|AI & Technology|Government|Education\"}]}. "
         f"Candidates: {[c.title for c in candidates]}"
     )
 
