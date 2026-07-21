@@ -1,0 +1,27 @@
+2026-07-20 11:28:26 | INFO    | Testing OpenRouter connection...
+2026-07-20 11:28:26 | WARNING | chat_json attempt 1 failed: HTTP 401: {"error":{"message":"Missing Authentication header","code":401}}
+2026-07-20 11:28:28 | WARNING | chat_json attempt 2 failed: HTTP 401: {"error":{"message":"Missing Authentication header","code":401}}
+2026-07-20 11:28:32 | WARNING | chat_json attempt 3 failed: HTTP 401: {"error":{"message":"Missing Authentication header","code":401}}
+2026-07-20 11:28:38 | ERROR   | OpenRouter FAILED: chat_json failed after 3 attempts: HTTP 401: {"error":{"message":"Missing Authentication header","code":401}}
+2026-07-20 11:28:38 | INFO    | Testing Laravel API at https://www.efos.in/api/ai/publish-blog ...
+2026-07-20 11:28:40 | INFO    | Laravel reachable (HTTP 404). Body: {
+    "message": "The route api/ai/publish-blog could not be found.",
+    "exception": "Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException",
+    "file": "/home/u267672142/domains/efos.in
+2026-07-20 11:49:41 | INFO    | Discovered 50 unique trending candidates.
+2026-07-20 11:49:41 | WARNING | chat_json attempt 1 failed: HTTP 401: {"error":{"message":"Missing Authentication header","code":401}}
+2026-07-20 11:49:43 | WARNING | chat_json attempt 2 failed: HTTP 401: {"error":{"message":"Missing Authentication header","code":401}}
+2026-07-20 11:49:47 | WARNING | chat_json attempt 3 failed: HTTP 401: {"error":{"message":"Missing Authentication header","code":401}}
+2026-07-20 11:49:53 | ERROR   | AI select failed: chat_json failed after 3 attempts: HTTP 401: {"error":{"message":"Missing Authentication header","code":401}}
+2026-07-20 11:49:53 | INFO    | AI selected 0 topics.
+2026-07-20 11:49:53 | ERROR   | AI topic selection returned nothing. Aborting run.
+2026-07-20 12:06:47 | INFO    | Testing OpenRouter connection...
+2026-07-20 12:06:47 | WARNING | chat_json attempt 1 failed: HTTP 401: {"error":{"message":"Missing Authentication header","code":401}}
+2026-07-20 12:06:50 | WARNING | chat_json attempt 2 failed: HTTP 401: {"error":{"message":"Missing Authentication header","code":401}}
+2026-07-20 12:06:54 | WARNING | chat_json attempt 3 failed: HTTP 401: {"error":{"message":"Missing Authentication header","code":401}}
+2026-07-20 12:07:00 | ERROR   | OpenRouter FAILED: chat_json failed after 3 attempts: HTTP 401: {"error":{"message":"Missing Authentication header","code":401}}
+2026-07-20 12:07:00 | INFO    | Testing Laravel API at https://www.efos.in/api/ai/publish-blog ...
+2026-07-20 12:07:01 | INFO    | Laravel reachable (HTTP 404). Body: {
+    "message": "The route api/ai/publish-blog could not be found.",
+    "exception": "Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException",
+    "file": "/home/u267672142/domains/efos.in

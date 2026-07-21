@@ -1,0 +1,11 @@
+{
+  "name": "efos-ai-blog-automation",
+  "version": "2.0.0",
+  "private": true,
+  "description": "DEPRECATED Node version. The active automation is Python (src/) + optional PHP trigger. No Node.js / n8n required. Run: python -m src --once",
+  "scripts": {
+    "start": "echo \"Use: python -m src (Python scheduler). Node is no longer used.\"",
+    "python": "python -m src",
+    "php": "php run_ai_blog.php"
+  }
+}

@@ -1,0 +1,329 @@
+2026-07-21 12:31:02 | INFO    | Discovered 50 unique trending candidates.
+2026-07-21 12:31:06 | INFO    | AI selected 2 topics.
+2026-07-21 12:31:14 | INFO    | Researched 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR' (3 facts).
+2026-07-21 12:31:44 | INFO    | Wrote blog 'Project Saksham: Empowering Women through Skill Development' (849 words).
+2026-07-21 12:31:45 | WARNING | Image generation failed HTTP 404: {"error":{"message":"No model found for \"openai/dall-e-3\"","code":404}}
+2026-07-21 12:31:45 | WARNING | No featured image generated (disabled or failed). Publishing without image.
+2026-07-21 12:31:46 | ERROR   | Smart gate rejected 'Project Saksham: Empowering Women through Skill Development': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 12:31:46 | WARNING | Publish returned failure for 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR': {'status': False, 'message': 'Publish rejected.', 'error': 'Smart gate validation failed.', 'errors': {'meta_title': ['Missing meta_title.'], 'meta_description': ['Missing meta_description.'], 'meta_keywords': ['Missing meta_keywords.']}}
+2026-07-21 12:31:53 | INFO    | Researched 'New prototype learning system for software development education uses a learning-by-teaching approach - Tech Xplore' (3 facts).
+2026-07-21 12:33:00 | INFO    | Discovered 50 unique trending candidates.
+2026-07-21 12:33:03 | INFO    | AI selected 2 topics.
+2026-07-21 12:33:12 | INFO    | Researched 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR' (4 facts).
+2026-07-21 12:33:46 | INFO    | Wrote blog 'Project Saksham: Empowering Women through Skills' (808 words).
+2026-07-21 12:33:47 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 12:33:47 | ERROR   | Smart gate rejected 'Project Saksham: Empowering Women through Skills': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 12:33:47 | WARNING | Publish returned failure for 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR': {'status': False, 'message': 'Publish rejected.', 'error': 'Smart gate validation failed.', 'errors': {'meta_title': ['Missing meta_title.'], 'meta_description': ['Missing meta_description.'], 'meta_keywords': ['Missing meta_keywords.']}}
+2026-07-21 12:34:00 | INFO    | Researched 'New prototype learning system for software development education uses a learning-by-teaching approach - Tech Xplore' (3 facts).
+2026-07-21 12:34:26 | INFO    | Wrote blog 'Innovative Learning System in Software Development' (1343 words).
+2026-07-21 12:34:27 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 12:34:28 | ERROR   | Smart gate rejected 'Innovative Learning System in Software Development': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 12:34:28 | WARNING | Publish returned failure for 'New prototype learning system for software development education uses a learning-by-teaching approach - Tech Xplore': {'status': False, 'message': 'Publish rejected.', 'error': 'Smart gate validation failed.', 'errors': {'meta_title': ['Missing meta_title.'], 'meta_description': ['Missing meta_description.'], 'meta_keywords': ['Missing meta_keywords.']}}
+2026-07-21 12:34:28 | INFO    | Daily run complete. Published 0 blog(s).
+2026-07-21 12:35:52 | INFO    | Wrote blog 'Project Saksham: Empowering Skill Development' (2543 words).
+2026-07-21 12:36:30 | INFO    | Discovered 50 unique trending candidates.
+2026-07-21 12:36:35 | INFO    | AI selected 2 topics.
+2026-07-21 12:36:42 | INFO    | Researched 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR' (3 facts).
+2026-07-21 12:37:05 | INFO    | Wrote blog 'NHAI Project Saksham: Empowering Women through Skills' (843 words).
+2026-07-21 12:37:06 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 12:37:06 | ERROR   | Smart gate rejected 'NHAI Project Saksham: Empowering Women through Skills': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 12:37:06 | WARNING | Publish returned failure for 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR': {'status': False, 'message': 'Publish rejected.', 'error': 'Smart gate validation failed.', 'errors': {'meta_title': ['Missing meta_title.'], 'meta_description': ['Missing meta_description.'], 'meta_keywords': ['Missing meta_keywords.']}}
+2026-07-21 12:37:13 | INFO    | Researched 'New prototype learning system for software development education uses a learning-by-teaching approach - Tech Xplore' (3 facts).
+2026-07-21 12:37:38 | INFO    | Wrote blog 'Learning-by-Teaching in Software Education' (1229 words).
+2026-07-21 12:37:38 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 12:37:39 | ERROR   | Smart gate rejected 'Learning-by-Teaching in Software Education': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 12:37:39 | WARNING | Publish returned failure for 'New prototype learning system for software development education uses a learning-by-teaching approach - Tech Xplore': {'status': False, 'message': 'Publish rejected.', 'error': 'Smart gate validation failed.', 'errors': {'meta_title': ['Missing meta_title.'], 'meta_description': ['Missing meta_description.'], 'meta_keywords': ['Missing meta_keywords.']}}
+2026-07-21 12:37:39 | INFO    | Daily run complete. Published 0 blog(s).
+2026-07-21 12:38:15 | INFO    | Wrote blog 'Empower Your Career with NHAI Project Saksham' (877 words).
+2026-07-21 12:38:16 | ERROR   | Smart gate rejected 'Empower Your Career with NHAI Project Saksham': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 12:39:10 | INFO    | Wrote blog 'Empowering Lives: NHAI Project Saksham' (670 words).
+2026-07-21 12:39:10 | INFO    | Publishing payload keys: ['category_id', 'title', 'slug', 'short_content', 'content', 'meta_title', 'meta_description', 'meta_keywords', 'alt', 'status']
+2026-07-21 12:39:10 | INFO    |   meta_title='NHAI Project Saksham: Empowering Skills'
+2026-07-21 12:39:10 | INFO    |   meta_description='Explore NHAI Project Saksham, a skill development '
+2026-07-21 12:39:10 | INFO    |   meta_keywords='NHAI Project Saksham, skill development, Indian yo'
+2026-07-21 12:39:10 | INFO    | [DRY-RUN] Would publish 'Empowering Lives: NHAI Project Saksham' to category 5.
+2026-07-21 12:53:46 | INFO    | Discovered 50 unique trending candidates.
+2026-07-21 12:53:46 | WARNING | chat_json attempt 1 failed: HTTP 402: {"error":{"message":"This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 14690. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account","code":402,"metadata":{"provider_name":null,"previous_errors":[{"code":4
+2026-07-21 12:53:49 | WARNING | chat_json attempt 2 failed: HTTP 402: {"error":{"message":"This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 14690. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account","code":402,"metadata":{"provider_name":null,"previous_errors":[{"code":4
+2026-07-21 12:53:53 | WARNING | chat_json attempt 3 failed: HTTP 402: {"error":{"message":"This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 14690. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account","code":402,"metadata":{"provider_name":null,"previous_errors":[{"code":4
+2026-07-21 12:53:59 | ERROR   | AI select failed: chat_json failed after 3 attempts: HTTP 402: {"error":{"message":"This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 14690. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account","code":402,"metadata":{"provider_name":null,"previous_errors":[{"code":4
+2026-07-21 12:53:59 | INFO    | AI selected 0 topics.
+2026-07-21 12:53:59 | ERROR   | AI topic selection returned nothing. Aborting run.
+2026-07-21 12:56:21 | INFO    | Discovered 50 unique trending candidates.
+2026-07-21 12:56:25 | INFO    | AI selected 2 topics.
+2026-07-21 12:56:32 | INFO    | Researched 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR' (4 facts).
+2026-07-21 12:56:58 | INFO    | Wrote blog 'Empowering Women through Project Saksham' (854 words).
+2026-07-21 12:56:58 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 12:56:59 | INFO    | Publishing payload keys: ['category_id', 'title', 'slug', 'short_content', 'content', 'meta_title', 'meta_description', 'meta_keywords', 'alt', 'status']
+2026-07-21 12:56:59 | INFO    |   meta_title='Project Saksham: Women Empowerment Through Skills'
+2026-07-21 12:56:59 | INFO    |   meta_description="Explore NHAI's Project Saksham, empowering women t"
+2026-07-21 12:56:59 | INFO    |   meta_keywords='Project Saksham, NHAI, women empowerment, skill de'
+2026-07-21 12:56:59 | ERROR   | Smart gate rejected 'Empowering Women through Project Saksham': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 12:56:59 | ERROR   | Failed to process topic 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR': name 'json' is not defined
+2026-07-21 12:57:06 | INFO    | Researched 'Summer internship program prepares students for careers in adolescent health - UT Health San Antonio' (4 facts).
+2026-07-21 12:57:27 | INFO    | Wrote blog 'Summer Internship Program in Adolescent Health' (883 words).
+2026-07-21 12:57:28 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 12:57:29 | INFO    | Publishing payload keys: ['category_id', 'title', 'slug', 'short_content', 'content', 'meta_title', 'meta_description', 'meta_keywords', 'alt', 'status']
+2026-07-21 12:57:29 | INFO    |   meta_title='Summer Internship in Adolescent Health'
+2026-07-21 12:57:29 | INFO    |   meta_description='Explore the Summer Internship Program at UT Health'
+2026-07-21 12:57:29 | INFO    |   meta_keywords='summer internship, adolescent health, UT Health Sa'
+2026-07-21 12:57:29 | ERROR   | Smart gate rejected 'Summer Internship Program in Adolescent Health': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 12:57:29 | ERROR   | Failed to process topic 'Summer internship program prepares students for careers in adolescent health - UT Health San Antonio': name 'json' is not defined
+2026-07-21 12:57:29 | INFO    | Daily run complete. Published 0 blog(s).
+2026-07-21 12:58:28 | INFO    | Discovered 50 unique trending candidates.
+2026-07-21 12:58:32 | INFO    | AI selected 2 topics.
+2026-07-21 12:58:40 | INFO    | Researched 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR' (4 facts).
+2026-07-21 12:59:05 | INFO    | Wrote blog 'NHAI's Project Saksham: Empowering Women through Skills' (1160 words).
+2026-07-21 12:59:06 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 12:59:06 | INFO    | Publishing payload keys: ['category_id', 'title', 'slug', 'short_content', 'content', 'meta_title', 'meta_description', 'meta_keywords', 'alt', 'status']
+2026-07-21 12:59:06 | INFO    |   meta_title="NHAI's Project Saksham: Empowering Women through S"
+2026-07-21 12:59:06 | INFO    |   meta_description="Explore NHAI's Project Saksham, which focuses on e"
+2026-07-21 12:59:06 | INFO    |   meta_keywords='Project Saksham, NHAI, women empowerment, skill de'
+2026-07-21 12:59:07 | ERROR   | Smart gate rejected 'NHAI's Project Saksham: Empowering Women through Skills': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 12:59:07 | ERROR   | Failed to process topic 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR': name 'json' is not defined
+2026-07-21 12:59:14 | INFO    | Researched 'New prototype learning system for software development education uses a learning-by-teaching approach - Tech Xplore' (4 facts).
+2026-07-21 12:59:38 | INFO    | Wrote blog 'Innovative Learning for Software Development' (656 words).
+2026-07-21 12:59:39 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 12:59:39 | INFO    | Publishing payload keys: ['category_id', 'title', 'slug', 'short_content', 'content', 'meta_title', 'meta_description', 'meta_keywords', 'alt', 'status']
+2026-07-21 12:59:39 | INFO    |   meta_title='New Learning System for Software Education'
+2026-07-21 12:59:39 | INFO    |   meta_description='Explore a new prototype in software education that'
+2026-07-21 12:59:39 | INFO    |   meta_keywords='software development, education, learning by teach'
+2026-07-21 12:59:40 | ERROR   | Smart gate rejected 'Innovative Learning for Software Development': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 12:59:40 | ERROR   | Failed to process topic 'New prototype learning system for software development education uses a learning-by-teaching approach - Tech Xplore': name 'json' is not defined
+2026-07-21 12:59:40 | INFO    | Daily run complete. Published 0 blog(s).
+2026-07-21 12:59:51 | INFO    | Discovered 50 unique trending candidates.
+2026-07-21 12:59:55 | INFO    | AI selected 2 topics.
+2026-07-21 13:00:02 | INFO    | Researched 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR' (4 facts).
+2026-07-21 13:00:25 | INFO    | Wrote blog 'NHAI Project Saksham: Empowering Women's Skills' (750 words).
+2026-07-21 13:00:26 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 13:00:26 | INFO    | Publishing payload keys: ['category_id', 'title', 'slug', 'short_content', 'content', 'meta_title', 'meta_description', 'meta_keywords', 'alt', 'status']
+2026-07-21 13:00:26 | INFO    |   meta_title='Project Saksham: Skill Development for Women'
+2026-07-21 13:00:26 | INFO    |   meta_description="Learn about NHAI's Project Saksham, empowered wome"
+2026-07-21 13:00:26 | INFO    |   meta_keywords='NHAI, Project Saksham, women empowerment, skill de'
+2026-07-21 13:00:26 | ERROR   | Smart gate rejected 'NHAI Project Saksham: Empowering Women's Skills': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 13:00:26 | ERROR   | Failed to process topic 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR': name 'json' is not defined
+2026-07-21 13:00:33 | INFO    | Researched 'New prototype learning system for software development education uses a learning-by-teaching approach - Tech Xplore' (4 facts).
+2026-07-21 13:00:52 | INFO    | Wrote blog 'Revolutionizing Software Development Education' (648 words).
+2026-07-21 13:00:53 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 13:00:53 | INFO    | Publishing payload keys: ['category_id', 'title', 'slug', 'short_content', 'content', 'meta_title', 'meta_description', 'meta_keywords', 'alt', 'status']
+2026-07-21 13:00:53 | INFO    |   meta_title='New Prototype Learning System in Software Educatio'
+2026-07-21 13:00:53 | INFO    |   meta_description='Discover how a new learning-by-teaching approach i'
+2026-07-21 13:00:53 | INFO    |   meta_keywords='learning-by-teaching, software development educati'
+2026-07-21 13:00:53 | ERROR   | Smart gate rejected 'Revolutionizing Software Development Education': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 13:00:53 | ERROR   | Failed to process topic 'New prototype learning system for software development education uses a learning-by-teaching approach - Tech Xplore': name 'json' is not defined
+2026-07-21 13:00:53 | INFO    | Daily run complete. Published 0 blog(s).
+2026-07-21 13:01:19 | INFO    | Discovered 50 unique trending candidates.
+2026-07-21 13:01:24 | INFO    | AI selected 2 topics.
+2026-07-21 13:01:32 | INFO    | Researched 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR' (4 facts).
+2026-07-21 13:01:53 | INFO    | Wrote blog 'NHAI's Project Saksham: Empowering Women through Skills' (898 words).
+2026-07-21 13:01:54 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 13:01:54 | INFO    | Publishing payload keys: ['category_id', 'title', 'slug', 'short_content', 'content', 'meta_title', 'meta_description', 'meta_keywords', 'alt', 'status']
+2026-07-21 13:01:54 | INFO    |   meta_title="NHAI's Project Saksham: Empowering Women"
+2026-07-21 13:01:54 | INFO    |   meta_description="Discover how NHAI's Project Saksham is empowering "
+2026-07-21 13:01:54 | INFO    |   meta_keywords='Project Saksham, NHAI, women empowerment, skill de'
+2026-07-21 13:01:55 | ERROR   | Smart gate rejected 'NHAI's Project Saksham: Empowering Women through Skills': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 13:01:55 | ERROR   | Failed to process topic 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR': name 'json' is not defined
+2026-07-21 13:02:00 | INFO    | Researched 'New prototype learning system for software development education uses a learning-by-teaching approach - Tech Xplore' (3 facts).
+2026-07-21 13:02:24 | INFO    | Wrote blog 'Transforming Software Development Education' (2656 words).
+2026-07-21 13:02:27 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 13:02:27 | INFO    | Publishing payload keys: ['category_id', 'title', 'slug', 'short_content', 'content', 'meta_title', 'meta_description', 'meta_keywords', 'alt', 'status']
+2026-07-21 13:02:27 | INFO    |   meta_title='Revolutionizing Software Development Education'
+2026-07-21 13:02:27 | INFO    |   meta_description='Discover how a new learning-by-teaching approach e'
+2026-07-21 13:02:27 | INFO    |   meta_keywords='software development, education, learning-by-teach'
+2026-07-21 13:02:27 | ERROR   | Smart gate rejected 'Transforming Software Development Education': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 13:02:27 | ERROR   | Failed to process topic 'New prototype learning system for software development education uses a learning-by-teaching approach - Tech Xplore': name 'json' is not defined
+2026-07-21 13:02:27 | INFO    | Daily run complete. Published 0 blog(s).
+2026-07-21 13:03:17 | INFO    | Discovered 50 unique trending candidates.
+2026-07-21 13:03:20 | INFO    | AI selected 2 topics.
+2026-07-21 13:03:29 | INFO    | Researched 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR' (4 facts).
+2026-07-21 13:03:51 | INFO    | Wrote blog 'NHAI Project Saksham: Empowering Women through Skills' (1172 words).
+2026-07-21 13:03:52 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 13:03:52 | INFO    | Publishing payload keys: ['category_id', 'title', 'slug', 'short_content', 'content', 'meta_title', 'meta_description', 'meta_keywords', 'alt', 'status']
+2026-07-21 13:03:52 | INFO    |   meta_title='NHAI Project Saksham: Empowering Women'
+2026-07-21 13:03:52 | INFO    |   meta_description="Discover how NHAI's Project Saksham enhances women"
+2026-07-21 13:03:52 | INFO    |   meta_keywords='Project Saksham, NHAI, women empowerment, skill de'
+2026-07-21 13:03:53 | ERROR   | Smart gate rejected 'NHAI Project Saksham: Empowering Women through Skills': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 13:03:53 | ERROR   | Failed to process topic 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR': name 'json' is not defined
+2026-07-21 13:04:01 | INFO    | Researched 'New prototype learning system for software development education uses a learning-by-teaching approach - Tech Xplore' (4 facts).
+2026-07-21 13:04:28 | INFO    | Wrote blog 'Innovative Learning System for Software Development' (2500 words).
+2026-07-21 13:04:29 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 13:04:29 | INFO    | Publishing payload keys: ['category_id', 'title', 'slug', 'short_content', 'content', 'meta_title', 'meta_description', 'meta_keywords', 'alt', 'status']
+2026-07-21 13:04:29 | INFO    |   meta_title='New Prototype Learning System for Software Educati'
+2026-07-21 13:04:29 | INFO    |   meta_description='Discover how the new learning-by-teaching approach'
+2026-07-21 13:04:29 | INFO    |   meta_keywords='learning-by-teaching, software development educati'
+2026-07-21 13:04:30 | ERROR   | Smart gate rejected 'Innovative Learning System for Software Development': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 13:04:30 | ERROR   | Failed to process topic 'New prototype learning system for software development education uses a learning-by-teaching approach - Tech Xplore': name 'json' is not defined
+2026-07-21 13:04:30 | INFO    | Daily run complete. Published 0 blog(s).
+2026-07-21 13:06:17 | INFO    | Discovered 50 unique trending candidates.
+2026-07-21 13:06:23 | INFO    | AI selected 2 topics.
+2026-07-21 13:06:29 | INFO    | Researched 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR' (3 facts).
+2026-07-21 13:07:03 | INFO    | Wrote blog 'Empowering Women through NHAI's Project Saksham' (682 words).
+2026-07-21 13:07:04 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 13:07:04 | INFO    | Publishing payload keys: ['category_id', 'title', 'slug', 'short_content', 'content', 'meta_title', 'meta_description', 'meta_keywords', 'alt', 'status']
+2026-07-21 13:07:04 | INFO    |   meta_title='Project Saksham: Skill Development for Women'
+2026-07-21 13:07:04 | INFO    |   meta_description="Discover how NHAI's Project Saksham empowers women"
+2026-07-21 13:07:04 | INFO    |   meta_keywords='NHAI, Project Saksham, women empowerment, skill de'
+2026-07-21 13:07:05 | ERROR   | Smart gate rejected 'Empowering Women through NHAI's Project Saksham': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 13:07:05 | ERROR   | Failed to process topic 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR': name 'json' is not defined
+2026-07-21 13:07:12 | INFO    | Researched 'New prototype learning system for software development education uses a learning-by-teaching approach - Tech Xplore' (4 facts).
+2026-07-21 13:07:31 | INFO    | Wrote blog 'Innovative Learning System for Software Development' (1022 words).
+2026-07-21 13:07:31 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 13:07:32 | INFO    | Publishing payload keys: ['category_id', 'title', 'slug', 'short_content', 'content', 'meta_title', 'meta_description', 'meta_keywords', 'alt', 'status']
+2026-07-21 13:07:32 | INFO    |   meta_title='New Prototype Learning System in Software Developm'
+2026-07-21 13:07:32 | INFO    |   meta_description='Discover the innovative learning-by-teaching appro'
+2026-07-21 13:07:32 | INFO    |   meta_keywords='learning-by-teaching, software development educati'
+2026-07-21 13:07:32 | ERROR   | Smart gate rejected 'Innovative Learning System for Software Development': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 13:07:32 | ERROR   | Failed to process topic 'New prototype learning system for software development education uses a learning-by-teaching approach - Tech Xplore': name 'json' is not defined
+2026-07-21 13:07:32 | INFO    | Daily run complete. Published 0 blog(s).
+2026-07-21 13:08:00 | INFO    | Discovered 50 unique trending candidates.
+2026-07-21 13:08:05 | INFO    | AI selected 2 topics.
+2026-07-21 13:08:13 | INFO    | Researched 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR' (4 facts).
+2026-07-21 13:10:52 | INFO    | Discovered 50 unique trending candidates.
+2026-07-21 13:10:58 | INFO    | AI selected 2 topics.
+2026-07-21 13:11:04 | INFO    | Researched 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR' (3 facts).
+2026-07-21 13:11:30 | INFO    | Wrote blog 'Empowering Women through Project Saksham' (1286 words).
+2026-07-21 13:11:32 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 13:11:32 | INFO    | Publishing payload keys: ['category_id', 'title', 'slug', 'short_content', 'content', 'meta_title', 'meta_description', 'meta_keywords', 'alt', 'status']
+2026-07-21 13:11:32 | INFO    |   meta_title="NHAI's Project Saksham: Women Empowerment"
+2026-07-21 13:11:32 | INFO    |   meta_description="Discover how NHAI's Project Saksham empowers women"
+2026-07-21 13:11:32 | INFO    |   meta_keywords='Project Saksham, NHAI, women empowerment, skill de'
+2026-07-21 13:11:33 | ERROR   | Smart gate rejected 'Empowering Women through Project Saksham': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 13:11:33 | ERROR   | Failed to process topic 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR': name 'json' is not defined
+2026-07-21 13:11:42 | INFO    | Researched 'New prototype learning system for software development education uses a learning-by-teaching approach - Tech Xplore' (5 facts).
+2026-07-21 13:12:06 | INFO    | Wrote blog 'Innovative Learning System for Software Education' (771 words).
+2026-07-21 13:12:07 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 13:12:07 | INFO    | Publishing payload keys: ['category_id', 'title', 'slug', 'short_content', 'content', 'meta_title', 'meta_description', 'meta_keywords', 'alt', 'status']
+2026-07-21 13:12:07 | INFO    |   meta_title='Learning by Teaching: A New Approach'
+2026-07-21 13:12:07 | INFO    |   meta_description='Discover the learning-by-teaching approach in soft'
+2026-07-21 13:12:07 | INFO    |   meta_keywords='learning by teaching, software development educati'
+2026-07-21 13:12:08 | ERROR   | Smart gate rejected 'Innovative Learning System for Software Education': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 13:12:08 | ERROR   | Failed to process topic 'New prototype learning system for software development education uses a learning-by-teaching approach - Tech Xplore': name 'json' is not defined
+2026-07-21 13:12:08 | INFO    | Daily run complete. Published 0 blog(s).
+2026-07-21 13:16:17 | INFO    | Discovered 50 unique trending candidates.
+2026-07-21 13:16:23 | INFO    | AI selected 2 topics.
+2026-07-21 13:16:32 | INFO    | Researched 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR' (4 facts).
+2026-07-21 13:16:52 | INFO    | Wrote blog 'NHAI's Project Saksham: Empowering Women Skills' (2576 words).
+2026-07-21 13:16:54 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 13:16:54 | INFO    | Publishing payload keys: ['category_id', 'title', 'slug', 'short_content', 'content', 'meta_title', 'meta_description', 'meta_keywords', 'alt', 'status']
+2026-07-21 13:16:54 | INFO    |   meta_title="NHAI's Project Saksham: Empowering Women"
+2026-07-21 13:16:54 | INFO    |   meta_description="Discover how NHAI's Project Saksham empowers women"
+2026-07-21 13:16:54 | INFO    |   meta_keywords='Project Saksham, NHAI, skill development, women em'
+2026-07-21 13:16:55 | ERROR   | Smart gate rejected 'NHAI's Project Saksham: Empowering Women Skills': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 13:16:55 | INFO    | Saved failed payload to C:\Users\pavan\OneDrive\Desktop\EFOS-AI-Blog\05_automation\src\state\failed_publishes\20260721_131655_nhai-project-saksham-empowering-women-skills.json
+2026-07-21 13:16:55 | WARNING | Publish returned failure for 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR': {'status': False, 'message': 'Publish rejected.', 'error': 'Smart gate validation failed.', 'errors': {'meta_title': ['Missing meta_title.'], 'meta_description': ['Missing meta_description.'], 'meta_keywords': ['Missing meta_keywords.']}}
+2026-07-21 13:16:55 | ERROR   | Failed to process topic 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR': name 'CFG' is not defined
+2026-07-21 13:17:00 | INFO    | Researched 'New prototype learning system for software development education uses a learning-by-teaching approach - Tech Xplore' (4 facts).
+2026-07-21 13:17:26 | INFO    | Wrote blog 'Innovative Learning System for Software Development' (2531 words).
+2026-07-21 13:17:27 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 13:17:27 | INFO    | Publishing payload keys: ['category_id', 'title', 'slug', 'short_content', 'content', 'meta_title', 'meta_description', 'meta_keywords', 'alt', 'status']
+2026-07-21 13:17:27 | INFO    |   meta_title='Transforming Software Education with New Learning '
+2026-07-21 13:17:27 | INFO    |   meta_description='Discover the innovative learning-by-teaching appro'
+2026-07-21 13:17:27 | INFO    |   meta_keywords='software development, education, learning-by-teach'
+2026-07-21 13:17:27 | ERROR   | Smart gate rejected 'Innovative Learning System for Software Development': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 13:17:27 | INFO    | Saved failed payload to C:\Users\pavan\OneDrive\Desktop\EFOS-AI-Blog\05_automation\src\state\failed_publishes\20260721_131727_innovative-learning-system-software-development.json
+2026-07-21 13:17:27 | WARNING | Publish returned failure for 'New prototype learning system for software development education uses a learning-by-teaching approach - Tech Xplore': {'status': False, 'message': 'Publish rejected.', 'error': 'Smart gate validation failed.', 'errors': {'meta_title': ['Missing meta_title.'], 'meta_description': ['Missing meta_description.'], 'meta_keywords': ['Missing meta_keywords.']}}
+2026-07-21 13:17:27 | ERROR   | Failed to process topic 'New prototype learning system for software development education uses a learning-by-teaching approach - Tech Xplore': name 'CFG' is not defined
+2026-07-21 13:17:27 | INFO    | Daily run complete. Published 0 blog(s).
+2026-07-21 13:18:07 | INFO    | Discovered 50 unique trending candidates.
+2026-07-21 13:18:09 | INFO    | AI selected 2 topics.
+2026-07-21 13:18:18 | INFO    | Researched 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR' (4 facts).
+2026-07-21 13:18:38 | INFO    | Wrote blog 'NHAI Project Saksham: Empowering Women through Skills' (1096 words).
+2026-07-21 13:18:39 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 13:18:39 | INFO    | Publishing payload keys: ['category_id', 'title', 'slug', 'short_content', 'content', 'meta_title', 'meta_description', 'meta_keywords', 'alt', 'status']
+2026-07-21 13:18:39 | INFO    |   meta_title='NHAI Project Saksham: Empowering Women through Ski'
+2026-07-21 13:18:39 | INFO    |   meta_description="Discover how NHAI's Project Saksham empowers women"
+2026-07-21 13:18:39 | INFO    |   meta_keywords='NHAI, Project Saksham, women empowerment, skill de'
+2026-07-21 13:18:40 | ERROR   | Smart gate rejected 'NHAI Project Saksham: Empowering Women through Skills': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 13:18:40 | INFO    | Saved failed payload to C:\Users\pavan\OneDrive\Desktop\EFOS-AI-Blog\05_automation\src\state\failed_publishes\20260721_131840_nhai-project-saksham-women-skills.json
+2026-07-21 13:18:40 | WARNING | Publish returned failure for 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR': {'status': False, 'message': 'Publish rejected.', 'error': 'Smart gate validation failed.', 'errors': {'meta_title': ['Missing meta_title.'], 'meta_description': ['Missing meta_description.'], 'meta_keywords': ['Missing meta_keywords.']}}
+2026-07-21 13:18:40 | INFO    | Saved pending blog to C:\Users\pavan\OneDrive\Desktop\EFOS-AI-Blog\05_automation\src\state\pending_blogs\nhai-project-saksham-women-skills_20260721_131840.json
+2026-07-21 13:18:46 | INFO    | Researched 'New prototype learning system for software development education uses a learning-by-teaching approach - Tech Xplore' (3 facts).
+2026-07-21 13:19:10 | INFO    | Wrote blog 'Revolutionizing Software Development Education' (2550 words).
+2026-07-21 13:19:11 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 13:19:11 | INFO    | Publishing payload keys: ['category_id', 'title', 'slug', 'short_content', 'content', 'meta_title', 'meta_description', 'meta_keywords', 'alt', 'status']
+2026-07-21 13:19:11 | INFO    |   meta_title='Revolutionizing Software Development Education'
+2026-07-21 13:19:11 | INFO    |   meta_description='Explore the new learning-by-teaching prototype tha'
+2026-07-21 13:19:11 | INFO    |   meta_keywords='software development, education, learning-by-teach'
+2026-07-21 13:19:11 | ERROR   | Smart gate rejected 'Revolutionizing Software Development Education': {"status":false,"message":"Publish rejected.","error":"Smart gate validation failed.","errors":{"meta_title":["Missing meta_title."],"meta_description":["Missing meta_description."],"meta_keywords":["Missing meta_keywords."]}}
+2026-07-21 13:19:11 | INFO    | Saved failed payload to C:\Users\pavan\OneDrive\Desktop\EFOS-AI-Blog\05_automation\src\state\failed_publishes\20260721_131911_revolutionizing-software-development-education.json
+2026-07-21 13:19:11 | WARNING | Publish returned failure for 'New prototype learning system for software development education uses a learning-by-teaching approach - Tech Xplore': {'status': False, 'message': 'Publish rejected.', 'error': 'Smart gate validation failed.', 'errors': {'meta_title': ['Missing meta_title.'], 'meta_description': ['Missing meta_description.'], 'meta_keywords': ['Missing meta_keywords.']}}
+2026-07-21 13:19:11 | INFO    | Saved pending blog to C:\Users\pavan\OneDrive\Desktop\EFOS-AI-Blog\05_automation\src\state\pending_blogs\revolutionizing-software-development-education_20260721_131911.json
+2026-07-21 13:19:11 | INFO    | Daily run complete. Published 0 blog(s).
+2026-07-21 13:19:44 | INFO    | Discovered 50 unique trending candidates.
+2026-07-21 13:19:48 | INFO    | AI selected 2 topics.
+2026-07-21 13:19:55 | INFO    | Researched 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR' (3 facts).
+2026-07-21 13:20:14 | INFO    | Wrote blog 'Project Saksham: Empowering Women through Skill Development' (854 words).
+2026-07-21 13:20:16 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 13:20:16 | INFO    | Publishing payload keys: ['category_id', 'title', 'slug', 'short_content', 'content', 'meta_title', 'meta_description', 'meta_keywords', 'alt', 'status']
+2026-07-21 13:20:16 | INFO    |   meta_title='Project Saksham: Empowering Women through Skill De'
+2026-07-21 13:20:16 | INFO    |   meta_description="Learn about NHAI's Project Saksham, a skill develo"
+2026-07-21 13:20:16 | INFO    |   meta_keywords='Project Saksham, NHAI, women empowerment, skill de'
+2026-07-21 13:20:16 | INFO    | [DRY-RUN] Would publish 'Project Saksham: Empowering Women through Skill Development' to category 5.
+2026-07-21 13:20:25 | INFO    | Researched 'Summer internship program prepares students for careers in adolescent health - UT Health San Antonio' (4 facts).
+2026-07-21 13:20:49 | INFO    | Wrote blog 'Summer Internship in Adolescent Health' (923 words).
+2026-07-21 13:20:50 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 13:20:50 | INFO    | Publishing payload keys: ['category_id', 'title', 'slug', 'short_content', 'content', 'meta_title', 'meta_description', 'meta_keywords', 'alt', 'status']
+2026-07-21 13:20:50 | INFO    |   meta_title='Summer Internship Program - UT Health San Antonio'
+2026-07-21 13:20:50 | INFO    |   meta_description='Discover the Summer Internship Program at UT Healt'
+2026-07-21 13:20:50 | INFO    |   meta_keywords='summer internship, adolescent health, UT Health Sa'
+2026-07-21 13:20:50 | INFO    | [DRY-RUN] Would publish 'Summer Internship in Adolescent Health' to category 18.
+2026-07-21 13:20:50 | INFO    | Daily run complete. Published 2 blog(s).
+2026-07-21 13:27:12 | INFO    | Discovered 50 unique trending candidates.
+2026-07-21 13:27:18 | INFO    | AI selected 2 topics.
+2026-07-21 13:27:18 | WARNING | chat_json attempt 1 failed: HTTP 402: Insufficient credits for openai/gpt-4o-mini. Add credits or switch model.
+2026-07-21 13:27:20 | WARNING | chat_json attempt 2 failed: HTTP 402: Insufficient credits for openai/gpt-4o-mini. Add credits or switch model.
+2026-07-21 13:27:24 | WARNING | chat_json attempt 3 failed: HTTP 402: Insufficient credits for openai/gpt-4o-mini. Add credits or switch model.
+2026-07-21 13:27:30 | ERROR   | Failed to process topic 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR': chat_json failed after 3 attempts: HTTP 402: Insufficient credits for openai/gpt-4o-mini. Add credits or switch model.
+2026-07-21 13:27:30 | WARNING | chat_json attempt 1 failed: HTTP 402: Insufficient credits for openai/gpt-4o-mini. Add credits or switch model.
+2026-07-21 13:27:32 | WARNING | chat_json attempt 2 failed: HTTP 402: Insufficient credits for openai/gpt-4o-mini. Add credits or switch model.
+2026-07-21 13:27:37 | WARNING | chat_json attempt 3 failed: HTTP 402: Insufficient credits for openai/gpt-4o-mini. Add credits or switch model.
+2026-07-21 13:27:43 | ERROR   | Failed to process topic 'New prototype learning system for software development education uses a learning-by-teaching approach - Tech Xplore': chat_json failed after 3 attempts: HTTP 402: Insufficient credits for openai/gpt-4o-mini. Add credits or switch model.
+2026-07-21 13:27:43 | INFO    | Daily run complete. Published 0 blog(s).
+2026-07-21 14:10:42 | INFO    | Discovered 50 unique trending candidates.
+2026-07-21 14:10:46 | INFO    | AI selected 2 topics.
+2026-07-21 14:10:47 | WARNING | chat_json model=openai/gpt-4o-mini attempt 1 failed: HTTP 402: Insufficient credits for openai/gpt-4o-mini. Trying next model...
+2026-07-21 14:10:49 | WARNING | chat_json model=openai/gpt-4o-mini attempt 2 failed: HTTP 402: Insufficient credits for openai/gpt-4o-mini. Trying next model...
+2026-07-21 14:10:53 | WARNING | chat_json model=openai/gpt-4o-mini attempt 3 failed: HTTP 402: Insufficient credits for openai/gpt-4o-mini. Trying next model...
+2026-07-21 14:10:59 | WARNING | Model openai/gpt-4o-mini exhausted. Trying next fallback...
+2026-07-21 14:10:59 | WARNING | chat_json model=meta-llama/llama-3.1-8b-instruct:free attempt 1 failed: HTTP 404: Model meta-llama/llama-3.1-8b-instruct:free not found. Trying next model...
+2026-07-21 14:11:01 | WARNING | chat_json model=meta-llama/llama-3.1-8b-instruct:free attempt 2 failed: HTTP 404: Model meta-llama/llama-3.1-8b-instruct:free not found. Trying next model...
+2026-07-21 14:11:06 | WARNING | chat_json model=meta-llama/llama-3.1-8b-instruct:free attempt 3 failed: HTTP 404: Model meta-llama/llama-3.1-8b-instruct:free not found. Trying next model...
+2026-07-21 14:11:12 | WARNING | Model meta-llama/llama-3.1-8b-instruct:free exhausted. Trying next fallback...
+2026-07-21 14:11:12 | WARNING | chat_json model=google/gemini-2.0-flash-exp:free attempt 1 failed: HTTP 404: Model google/gemini-2.0-flash-exp:free not found. Trying next model...
+2026-07-21 14:11:14 | WARNING | chat_json model=google/gemini-2.0-flash-exp:free attempt 2 failed: HTTP 404: Model google/gemini-2.0-flash-exp:free not found. Trying next model...
+2026-07-21 14:11:18 | WARNING | chat_json model=google/gemini-2.0-flash-exp:free attempt 3 failed: HTTP 404: Model google/gemini-2.0-flash-exp:free not found. Trying next model...
+2026-07-21 14:11:24 | WARNING | Model google/gemini-2.0-flash-exp:free exhausted. Trying next fallback...
+2026-07-21 14:11:24 | ERROR   | Failed to process topic 'NHAI Encourages Women Focused Skill Development through ‘Project Saksham’ - News On AIR': chat_json failed after trying ['openai/gpt-4o-mini', 'meta-llama/llama-3.1-8b-instruct:free', 'google/gemini-2.0-flash-exp:free']: HTTP 404: Model google/gemini-2.0-flash-exp:free not found. Trying next model...
+2026-07-21 14:11:24 | WARNING | chat_json model=openai/gpt-4o-mini attempt 1 failed: HTTP 402: Insufficient credits for openai/gpt-4o-mini. Trying next model...
+2026-07-21 14:11:26 | WARNING | chat_json model=openai/gpt-4o-mini attempt 2 failed: HTTP 402: Insufficient credits for openai/gpt-4o-mini. Trying next model...
+2026-07-21 14:11:31 | WARNING | chat_json model=openai/gpt-4o-mini attempt 3 failed: HTTP 402: Insufficient credits for openai/gpt-4o-mini. Trying next model...
+2026-07-21 14:11:37 | WARNING | Model openai/gpt-4o-mini exhausted. Trying next fallback...
+2026-07-21 14:11:37 | WARNING | chat_json model=meta-llama/llama-3.1-8b-instruct:free attempt 1 failed: HTTP 404: Model meta-llama/llama-3.1-8b-instruct:free not found. Trying next model...
+2026-07-21 14:11:39 | WARNING | chat_json model=meta-llama/llama-3.1-8b-instruct:free attempt 2 failed: HTTP 404: Model meta-llama/llama-3.1-8b-instruct:free not found. Trying next model...
+2026-07-21 14:11:43 | WARNING | chat_json model=meta-llama/llama-3.1-8b-instruct:free attempt 3 failed: HTTP 404: Model meta-llama/llama-3.1-8b-instruct:free not found. Trying next model...
+2026-07-21 14:11:49 | WARNING | Model meta-llama/llama-3.1-8b-instruct:free exhausted. Trying next fallback...
+2026-07-21 14:11:49 | WARNING | chat_json model=google/gemini-2.0-flash-exp:free attempt 1 failed: HTTP 404: Model google/gemini-2.0-flash-exp:free not found. Trying next model...
+2026-07-21 14:11:51 | WARNING | chat_json model=google/gemini-2.0-flash-exp:free attempt 2 failed: HTTP 404: Model google/gemini-2.0-flash-exp:free not found. Trying next model...
+2026-07-21 14:11:56 | WARNING | chat_json model=google/gemini-2.0-flash-exp:free attempt 3 failed: HTTP 404: Model google/gemini-2.0-flash-exp:free not found. Trying next model...
+2026-07-21 14:12:02 | WARNING | Model google/gemini-2.0-flash-exp:free exhausted. Trying next fallback...
+2026-07-21 14:12:02 | ERROR   | Failed to process topic 'Summer internship program prepares students for careers in adolescent health - UT Health San Antonio': chat_json failed after trying ['openai/gpt-4o-mini', 'meta-llama/llama-3.1-8b-instruct:free', 'google/gemini-2.0-flash-exp:free']: HTTP 404: Model google/gemini-2.0-flash-exp:free not found. Trying next model...
+2026-07-21 14:12:02 | INFO    | Daily run complete. Published 0 blog(s).
+2026-07-21 14:13:19 | INFO    | Discovered 50 unique trending candidates.
+2026-07-21 14:13:20 | WARNING | chat_json model=google/gemini-2.5-flash attempt 1 failed: HTTP 402: Insufficient credits for google/gemini-2.5-flash. Trying next model...
+2026-07-21 14:13:22 | WARNING | chat_json model=google/gemini-2.5-flash attempt 2 failed: HTTP 402: Insufficient credits for google/gemini-2.5-flash. Trying next model...
+2026-07-21 14:13:26 | WARNING | chat_json model=google/gemini-2.5-flash attempt 3 failed: HTTP 402: Insufficient credits for google/gemini-2.5-flash. Trying next model...
+2026-07-21 14:13:32 | WARNING | Model google/gemini-2.5-flash exhausted. Trying next fallback...
+2026-07-21 14:13:37 | INFO    | AI selected 0 topics.
+2026-07-21 14:13:37 | ERROR   | AI topic selection returned nothing. Aborting run.
+2026-07-21 14:15:48 | INFO    | Discovered 50 unique trending candidates.
+2026-07-21 14:15:59 | INFO    | AI selected 2 topics.
+2026-07-21 14:16:45 | INFO    | Researched 'Indian Army’s Sikh Regiment partners with GNDU for Agniveers’ skill development' (6 facts).
+2026-07-21 14:18:46 | WARNING | chat_json model=openrouter/free attempt 1 failed: Unterminated string starting at: line 93 column 5 (char 9836)
+2026-07-21 14:20:02 | INFO    | Wrote blog 'Sikh Regiment & GNDU Partner for Agniveer Skills' (1050 words).
+2026-07-21 14:20:03 | WARNING | All image generation attempts failed. Publishing without image.
+2026-07-21 14:20:04 | INFO    | Publishing payload keys: ['category_id', 'title', 'slug', 'short_content', 'content', 'meta_title', 'meta_description', 'meta_keywords', 'alt', 'status']
+2026-07-21 14:20:04 | INFO    |   meta_title='Sikh Regiment & GNDU Skill Program for Agniveers'
+2026-07-21 14:20:04 | INFO    |   meta_description="Discover how the Sikh Regiment's partnership with "
+2026-07-21 14:20:04 | INFO    |   meta_keywords='Sikh Regiment, GNDU, Agniveer skill development, I'
+2026-07-21 14:20:04 | INFO    | Published 'Sikh Regiment & GNDU Partner for Agniveer Skills' -> /testblog/career-updates/sikh-regiment-gndu-agniveer-skill-development
+2026-07-21 14:20:20 | INFO    | Researched 'NITI Aayog grants ₹1.55 crore to RISE Centre for skill development and women-led enterprises' (6 facts).

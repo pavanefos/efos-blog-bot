@@ -1,0 +1,4 @@
+# EFOS AI Blog Automation - Python dependencies (no Node.js, no n8n).
+# Standard library is used for .env loading, scheduling, and state.
+requests>=2.31.0
+feedparser>=6.0.0
