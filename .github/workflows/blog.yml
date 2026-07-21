@@ -11,7 +11,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: pip install requests feedparser
+      - run: pip install requests feedparser requests_toolbelt
       - run: |
           mkdir -p src
           for f in __init__.py __main__.py ai_client.py config.py knowledge.py logger.py pipeline.py publisher.py state.py topics.py writer.py image.py; do
