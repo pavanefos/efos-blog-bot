@@ -85,13 +85,29 @@ def chat_json(
 
 
 def _extract_json(content: str) -> dict[str, Any]:
-    """Parse JSON that may be wrapped in markdown code fences."""
+    """Parse JSON that may be wrapped in markdown code fences or be malformed."""
     text = content.strip()
     if text.startswith("```"):
         text = text.split("```", 2)[1]
         if text.lower().startswith("json"):
             text = text[4:]
-    return json.loads(text.strip())
+    text = text.strip()
+    # Repair common free-model JSON issues: trailing commas, unquoted keys, etc.
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        repaired = _repair_json(text)
+        return json.loads(repaired)
+
+
+def _repair_json(text: str) -> str:
+    import re
+
+    text = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', text)
+    text = re.sub(r'}\s*,\s*\}', '}}', text)
+    text = re.sub(r']\s*,\s*\]', ']]', text)
+    text = re.sub(r'(\w+)\s*:', r'"\1":', text)
+    return text
 
 
 def generate_image(prompt: str, *, size: str = "1792x1024") -> str | None:
