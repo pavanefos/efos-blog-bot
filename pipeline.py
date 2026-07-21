@@ -1,15 +1,14 @@
 """Main orchestrator for the EFOS daily AI blog automation (Node-free).
 
 Pipeline (mirrors the n8n workflow, replacing every node):
-  1. Topic discovery  (Google News + Trends RSS)        -> topics.py
-  2. AI selects best N topics                            -> topics.py
-  3. For each topic:
-       a. AI research                                    -> writer.py
-       b. AI writes SEO HTML blog                        -> writer.py
-       c. AI generates + downloads featured image        -> image.py
-       d. Publish to Laravel Blog API (multipart)        -> publisher.py
-       e. Record in local dedup state                    -> state.py
-  4. Loop until BLOGS_PER_DAY published (or out of topics).
+   1. Topic discovery  (Google News + Trends RSS)        -> topics.py
+   2. AI selects best N topics                            -> topics.py
+   3. For each topic:
+        a. AI research + write blog in ONE call          -> writer.py
+        b. AI generates + downloads featured image        -> image.py
+        c. Publish to Laravel Blog API (multipart)        -> publisher.py
+        d. Record in local dedup state                    -> state.py
+   4. Loop until BLOGS_PER_DAY published (or out of topics).
 """
 from __future__ import annotations
 
@@ -23,7 +22,7 @@ from .logger import log
 from .publisher import publish
 from .state import StateStore
 from .topics import discover_candidates, select_topics
-from .writer import pick_author, research, write_blog
+from .writer import pick_author, write_blog_with_research
 
 
 def run_once() -> int:
@@ -53,8 +52,7 @@ def run_once() -> int:
             continue
 
         try:
-            research_data = research(topic, category)
-            blog = write_blog(topic, category, research_data)
+            blog = write_blog_with_research(topic, category)
             blog.setdefault("topic", topic)
             blog.setdefault("seo_title", topic)
             slug = blog.get("slug", "") or ""
@@ -63,7 +61,6 @@ def run_once() -> int:
                 log.info(f"Skipping duplicate (post-write) topic: {topic}")
                 continue
 
-            # Embed author bio into the blog content for E-EAT.
             author_bio = pick_author(blog)
             html = blog.get("html_blog", "")
             if author_bio and "<!--AUTHOR-->" in html:
@@ -86,7 +83,6 @@ def run_once() -> int:
                 published += 1
             else:
                 log.warning(f"Publish returned failure for '{topic}': {result}")
-                # Save for manual review but continue with other blogs
                 from pathlib import Path
                 out_dir = CFG.state_dir / "pending_blogs"
                 out_dir.mkdir(parents=True, exist_ok=True)
@@ -106,7 +102,6 @@ def run_once() -> int:
 def _blogs_per_day() -> int:
     try:
         from .config import CFG
-
         return max(1, CFG.blogs_per_day)
-    except Exception:  # noqa: BLE001
+    except Exception:
         return 5
