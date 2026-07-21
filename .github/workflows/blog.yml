@@ -1,0 +1,15 @@
+name: EFOS Blog Automation
+on:
+  schedule:
+    - cron: '0 3,5,7,9,11,13 * * *'
+  workflow_dispatch:
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests feedparser
+      - run: python run.py --once
