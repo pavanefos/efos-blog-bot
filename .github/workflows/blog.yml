@@ -10,6 +10,12 @@ jobs:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       LARAVEL_API_URL: ${{ secrets.LARAVEL_API_URL }}
       AI_BLOG_TOKEN: ${{ secrets.AI_BLOG_TOKEN }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      AI_MODEL: gemini/gemini-2.5-flash
+      AI_MAX_TOKENS: '1024'
+      AI_FALLBACK_MODELS: ''
+      BLOGS_PER_DAY: '1'
+      USE_IMAGE_API: 'false'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
