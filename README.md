@@ -10,7 +10,7 @@ Every day at SCHEDULE_HOUR:SCHEDULE_MINUTE
 Find Trending Education Topics  (Google News RSS + Google Trends RSS)
         │
         ▼
-AI selects the BEST N topics  (N = BLOGS_PER_DAY, e.g. 5)
+AI selects the BEST N topics  (N = BLOGS_PER_DAY, e.g. 6)
         │
         ▼
 AI researches each topic
