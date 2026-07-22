@@ -10,6 +10,11 @@ jobs:
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
       LARAVEL_API_URL: ${{ secrets.LARAVEL_API_URL }}
       AI_BLOG_TOKEN: ${{ secrets.AI_BLOG_TOKEN }}
+      AI_MODEL: openrouter/free
+      AI_MAX_TOKENS: '512'
+      AI_FALLBACK_MODELS: google/gemma-4-26b-a4b-it:free,openai/gpt-oss-20b:free
+      BLOGS_PER_DAY: '1'
+      USE_IMAGE_API: 'false'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
