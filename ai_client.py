@@ -2,7 +2,6 @@
 from __future__ import annotations
 
 import json
-import re
 import time
 from typing import Any
 
@@ -37,11 +36,7 @@ def chat_json(
     max_retries: int = 3,
     max_tokens: int = 2048,
 ) -> dict[str, Any]:
-    """Call the chat model and parse a JSON object response.
-
-    Routes to Gemini API when model starts with 'gemini/' or 'gemini-'.
-    Otherwise uses OpenRouter.
-    """
+    """Routes to Gemini API when model starts with 'gemini/'."""
     resolved = model or CFG.ai_model
 
     if resolved.startswith("gemini/") or resolved.startswith("gemini-"):
@@ -115,9 +110,8 @@ def _chat_json_gemini(
         clean_model = clean_model[len("gemini/"):]
     elif clean_model.startswith("gemini-"):
         clean_model = clean_model[len("gemini-"):]
-    url = f"{GEMINI_BASE}/{clean_model}:generateContent?key={CFG.gemini_api_key}"
 
-    # Combine system + user prompt for Gemini
+    url = f"{GEMINI_BASE}/{clean_model}:generateContent?key={CFG.gemini_api_key}"
     combined = f"{system_prompt}\n\n{user_prompt}"
     payload = {
         "contents": [{"parts": [{"text": combined}]}],
