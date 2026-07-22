@@ -7,7 +7,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     env:
-      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       LARAVEL_API_URL: ${{ secrets.LARAVEL_API_URL }}
       AI_BLOG_TOKEN: ${{ secrets.AI_BLOG_TOKEN }}
     steps:
