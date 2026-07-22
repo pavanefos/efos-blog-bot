@@ -68,14 +68,15 @@ class Config:
     ai_blog_token: str = field(default=_get("AI_BLOG_TOKEN", ""))
     blog_ai_user_id: int = field(default=_int("BLOG_AI_USER_ID", 0))
 
-    # AI provider (OpenRouter) - used for topic selection / research / writing
+    # AI provider
     openrouter_api_key: str = field(default=_get("OPENROUTER_API_KEY", ""))
-    ai_model: str = field(default=_get("AI_MODEL", "openrouter/free"))
-    ai_max_tokens: int = field(default=_int("AI_MAX_TOKENS", 512))
-    ai_fallback_models: str = field(default=_get("AI_FALLBACK_MODELS", "google/gemma-4-26b-a4b-it:free,openai/gpt-oss-20b:free"))
+    ai_model: str = field(default=_get("AI_MODEL", "gemini/gemini-2.5-flash"))
+    ai_max_tokens: int = field(default=_int("AI_MAX_TOKENS", 1024))
+    ai_fallback_models: str = field(default=_get("AI_FALLBACK_MODELS", "meta-llama/llama-3.1-8b-instruct"))
+    gemini_api_key: str = field(default=_get("GEMINI_API_KEY", ""))
 
     # Image generation
-    use_image_api: bool = field(default=_bool("USE_IMAGE_API", True))
+    use_image_api: bool = field(default=_bool("USE_IMAGE_API", False))
     image_provider: str = field(default=_get("IMAGE_PROVIDER", "openrouter"))  # openrouter | chatgpt
     image_model: str = field(default=_get("IMAGE_MODEL", "stabilityai/stable-diffusion-xl-base-1.0"))
     openai_api_key: str = field(default=_get("OPENAI_API_KEY", ""))  # for ChatGPT image API
