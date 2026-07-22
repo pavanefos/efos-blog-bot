@@ -56,6 +56,8 @@ def run_once() -> int:
             blog.setdefault("topic", topic)
             blog.setdefault("seo_title", topic)
             slug = blog.get("slug", "") or ""
+            if slug:
+                slug = slug + "-" + datetime.now().strftime("%H%M")
 
             if store.is_duplicate(blog.get("seo_title", topic), slug):
                 log.info(f"Skipping duplicate (post-write) topic: {topic}")
