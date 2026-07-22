@@ -110,7 +110,11 @@ def _chat_json_gemini(
     max_retries: int = 3,
 ) -> dict[str, Any]:
     """Call Google Gemini API directly and parse JSON response."""
-    clean_model = model.replace("gemini/", "").replace("gemini-", "")
+    clean_model = model
+    if clean_model.startswith("gemini/"):
+        clean_model = clean_model[len("gemini/"):]
+    elif clean_model.startswith("gemini-"):
+        clean_model = clean_model[len("gemini-"):]
     url = f"{GEMINI_BASE}/{clean_model}:generateContent?key={CFG.gemini_api_key}"
 
     # Combine system + user prompt for Gemini
