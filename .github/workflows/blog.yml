@@ -9,7 +9,7 @@ jobs:
     env:
       OPENROUTER_API_KEY: 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
       LARAVEL_API_URL: https://efos.in/testblog
-      AI_BLOG_TOKEN: ef0s-ai-9f3c-7b2c-1d4e-8a6f-5c0b
+      AI_BLOG_TOKEN: ef0s-ai-9f3a-7b2c-1d4e-8a6f-5c0b
       AI_MODEL: openrouter/free
       AI_MAX_TOKENS: '512'
       AI_FALLBACK_MODELS: google/gemma-4-26b-a4b-it:free,openai/gpt-oss-20b:free
